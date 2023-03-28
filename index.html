@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Rodrigo</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-r.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a id="acercade" href="">Acerca de</a>
+                <a id="experiencia" href="">Experiencia</a>
+                <a id="contacto" href="">Contacto</a>
+                <a id="btn-dark" href=""><i class="fa-solid fa-moon"></i></a>
+            </nav>
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Rodrigo Carrasco</h1>
+                    <h2 class="profesion">Desarrollador web</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/miFoto.jpeg" width="115" alt="Rodrigo Carrasco">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>
+                        Mi nombre es <span class="bold">Rodrigo, 22 años chileno</span> 
+                        y me dedico a estudiar <span class="bold">ingenieria informatica</span>
+                        en el instituto profesional <span class="bold">Virginio Gomez.</span> 
+                        Desarrollo paginas web utilizando <span class="bold"> Html, Css y JavaScript</span>, 
+                        ademas de otras herramientas, actualmente estoy aprendiendo Angular y ReactJS.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Experiencia</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajo1.jpg" alt="trabajo1">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">trabajo 1</p>
+                            <p class="categoria">desarrollo html</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajo1.jpg" alt="trabajo1">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">trabajo 2</p>
+                            <p class="categoria">desarrollo css</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="img/trabajo1.jpg" alt="trabajo1">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">trabajo 3</p>
+                            <p class="categoria">desarrollo javascript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="herramientas">
+                    <h3 class="titulo">Herramientas</h3>
+                    <div class="iconos">
+                        <i class="fa-brands fa-html5" id="html"></i>
+                        <i class="fa-brands fa-css3-alt" id="css"></i>
+                        <i class="fa-brands fa-js" id="js"></i>
+                        <i class="fa-brands fa-sass" id="sass"></i>
+                        <i class="fa-brands fa-bootstrap" id="bootstrap"></i>
+                        <i class="fa-brands fa-figma" id="figma"></i>
+                        <i class="fa-brands fa-git-alt" id="git"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" action="">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a class="linkedin" href="www.linkedin.com/in/rodrigo-carrasco-6a3599250"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="github" href="https://github.com/RodrigoCarrasco13"><i class="fa-brands fa-github"></i></a>
+                <a class="instagram" href="https://www.instagram.com/sr.browen/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+    </footer>
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fa-solid fa-hand-point-up"></i>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
